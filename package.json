@@ -1,0 +1,17 @@
+{
+  "name": "risk-control",
+  "version": "1.0.0",
+  "description": "For Risk Control",
+  "main": "app.js",
+  "scripts": {
+    "build": "dotnet build",
+    "dev": "dotnet watch run",
+    "publish": "dotnet publish"
+  },
+  "author": "kevin",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^4.0.3"
+  }
+}

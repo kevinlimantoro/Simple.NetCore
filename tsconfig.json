@@ -1,0 +1,23 @@
+{
+	"compilerOptions": {
+		"module": "commonjs",
+		"target": "es2017",
+		"lib": ["es2017", "esnext.asynciterable","DOM"],
+		"rootDir": "./",
+		"outDir": "./dir",
+		"watch": false,
+		"sourceMap": false,
+		"allowJs": true,
+		"removeComments": true,
+		"baseUrl": ".",
+		"allowSyntheticDefaultImports": true,
+		"noImplicitThis": true,
+		"noImplicitReturns": true,
+		"noFallthroughCasesInSwitch": true,
+		"noUnusedLocals": true,
+		"paths": {
+			"~/*": ["./*"]
+		}
+	},
+	"exclude": ["node_modules", "static", "lib", "util/lib", "build", "dir"]
+}
